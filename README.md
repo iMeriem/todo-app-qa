@@ -106,8 +106,3 @@ Each flow includes both positive and negative test scenarios to ensure robust va
    - Implemented Selenium WebDriver for UI testing in addition to API testing
    - Some tests may need adjustments based on the actual UI implementation details
 
-## Notes
-
-- The UI tests might be flaky if the application's frontend DOM structure changes
-- The tests clean up after themselves to ensure repeatability
-- Some CSS selectors in the UI tests may need adjustment based on the actual implementation
