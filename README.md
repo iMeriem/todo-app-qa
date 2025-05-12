@@ -47,7 +47,7 @@ git clone https://github.com/delbetu/todo-app.git
 cd todo-app
 
 # Setup backend
-bash# Install Ruby dependencies
+bash Install Ruby dependencies
 bundle install
 
 # Set up the database
@@ -76,7 +76,7 @@ npm test
 ```
 
 To run specific test suites:
-```bash
+bash
 # API tests only
 npm run test:api
 
