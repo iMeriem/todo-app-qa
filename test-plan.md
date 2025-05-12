@@ -64,16 +64,23 @@ This test plan covers the testing of the Todo App's core functionalities:
 
 ### Project Setup
 ```
-# Backend setup
-cd backend
+# Clone the Todo App repository
+git clone https://github.com/delbetu/todo-app.git
+cd todo-app
+
+# Install Ruby dependencies
 bundle install
+
+# Set up the database
 bundle exec rake db:create
 bundle exec rake db:migrate
 bundle exec rake db:seed
+
+# Start the Rails server
 rails server
 
-# Frontend setup (in a separate terminal)
-cd frontend
+# In a new terminal window, set up the frontend
+cd todo-app
 npm install
 npm run build
 npm run dev
