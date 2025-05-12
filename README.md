@@ -88,19 +88,19 @@ npm run test:ui
 
 The automated tests focus on three critical user flows:
 
-1. **Authentication Flow**: Testing user login, token retrieval, and authentication validation
-2. **Task List Management Flow**: Testing CRUD operations for task lists
-3. **Task Item Management Flow**: Testing CRUD operations for individual tasks
+1. Authentication Flow**: Testing user login, token retrieval, and authentication validation
+2. Task List Management Flow**: Testing CRUD operations for task lists
+3. Task Item Management Flow**: Testing CRUD operations for individual tasks
 
 Each flow includes both positive and negative test scenarios to ensure robust validation.
 
 ## Assumptions and Modifications
 
-1. **Environment Assumptions**:
+1. Environment Assumptions:
    - The application runs locally on the default ports (Backend: 3000, Frontend: 8080)
    - The default admin user exists with credentials admin@todo.com/admin
 
-2. **Test Modifications**:
+2. Test Modifications:
    - Added TypeScript support for better type checking
    - Used Axios for API requests instead of native fetch for better error handling
    - Implemented Selenium WebDriver for UI testing in addition to API testing
